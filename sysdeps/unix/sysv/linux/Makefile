@@ -55,6 +55,7 @@ endif
 
 ifeq ($(subdir),misc)
 sysdep_routines += \
+  uk_vsyscall \
   adjtimex \
   clock_adjtime \
   clone \
